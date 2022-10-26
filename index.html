@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mensagem Oculta</title>
 </head>
+
 <body>
+    <canvas id=c></canvas>
+
     <header>
 
     </header>
 
     <main>
-        <label for="entrada">Insira aqui sua mensagem:</label>
-        <br>
-        <input type="text" name="caixaEntrada" id="entrada">
-        <br>
-        <label for="base64">Base64</label>
-        <input type="radio" name="tipoCodigo" id="base64">
-        <label for="cifraCesar">Cifra de Cesar</label>
-        <input type="radio" name="tipoCodigo" id="cifraCesar">
-        <br>
+
+
+        <div class="principal">
+            <label for="entrada">Insira aqui sua mensagem:</label>
+            <br>
+            <!-- <input type="text" name="caixaEntrada" id="entrada" >
+            <br> -->
+            <textarea name="caixaEntrada" id="caixaEntrada" cols="35" rows="7"></textarea>
+            <br><br>
+
+            <label for="metodo:">Selecione um método:</label>
+            <br><br>
+            <!-- <label for="base64">Base64</label>
+            <input type="radio" name="tipoCodigo" id="base64">
+            <label for="cifraCesar">Cifra de Cesar</label>
+            <input type="radio" name="tipoCodigo" id="cifraCesar"> -->
+
+            <select name="escolhaMetodo" class="escolhaMetodo" id="opcaoMetodo" required>
+                <option value="nulo" id="nulo" disabled selected>Selecionar</option>
+                <option value="Base64" id="base64">Base64</option>
+                <option value="cifraCesar" id="cifraCesar">Cifra de César</option>
+            </select>
+
+            <div class="incremento" style="display: none" id="valorIncremento">
+            <label for="incremento">Incremento:</label>
+            <input type="number" class="inputIncremento" id="numIncrementos" default="0" min="0" max="25" value="0"/>
+        </div>
+        <br><br>
+
         <label for="codificar">Codificar</label>
         <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="codificar">
         <label for="decodificar">Decodificar</label>
         <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="decodificar">
-        <br>
+        <br><br>
         <input type="button" value="aqui_vai_mudar" id="botao">
-        <br>
+        <br><br>
         <label for="saida">Este é o resultado da sua mensagem.</label>
         <br>
-        <input type="text" name="caixaSaida" id="saida">
+        <!-- <input type="text" name="caixaSaida" id="saida"> -->
+        <textarea name="caixaSaida" id="caixaSaida" cols="35" rows="7"></textarea>
+        </div>
+
+
     </main>
 
 
@@ -42,4 +70,5 @@
     <link rel="stylesheet" href="/css/style.css">
 
 </body>
+
 </html>

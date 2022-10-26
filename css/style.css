@@ -1,13 +1,43 @@
 body {
-    background-color: #000;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    perspective: 600px;
-    color: violet;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* perspective: 600px; */
+  color: black;
+}
+
+/* Configuração para background*/
+
+canvas {
+  position: absolute;
+	top: 0;
+	left: 0;
   }
+
+/* FIM configuração para background */
+
+/* Estilo da div principal */
+
+.principal {
+  background-color: aliceblue;
+  position: relative;
+  text-align: center;
+  border: 20px solid aliceblue;
+  margin: 20px;
+}
+
+#entrada{
+  width: 270px;
+  height: 70px;
+}
+
+#saida{
+  width: 270px;
+  height: 70px;
+}
  
+/* FIM estilo da div principal */
