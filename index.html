@@ -9,29 +9,22 @@
 </head>
 
 <body>
+    <!-- Chamada para função que executa o background em movimento. -->
     <canvas id=c></canvas>
 
     <header>
-
     </header>
 
     <main>
-
-
         <div class="principal">
             <label for="entrada">Insira aqui sua mensagem:</label>
             <br>
-            <!-- <input type="text" name="caixaEntrada" id="entrada" >
-            <br> -->
+
             <textarea name="caixaEntrada" id="caixaEntrada" cols="35" rows="7"></textarea>
             <br><br>
 
             <label for="metodo:">Selecione um método:</label>
             <br><br>
-            <!-- <label for="base64">Base64</label>
-            <input type="radio" name="tipoCodigo" id="base64">
-            <label for="cifraCesar">Cifra de Cesar</label>
-            <input type="radio" name="tipoCodigo" id="cifraCesar"> -->
 
             <select name="escolhaMetodo" class="escolhaMetodo" id="opcaoMetodo" required>
                 <option value="nulo" id="nulo" disabled selected>Selecionar</option>
@@ -40,35 +33,32 @@
             </select>
 
             <div class="incremento" style="display: none" id="valorIncremento">
-            <label for="incremento">Incremento:</label>
-            <input type="number" class="inputIncremento" id="numIncrementos" default="0" min="0" max="25" value="0"/>
+                <label for="incremento">Incremento:</label>
+                <input type="number" class="inputIncremento" id="numIncrementos" default="0" min="0" max="25"/>
+            </div>
+            <br><br>
+
+            <label for="codificar">Codificar</label>
+            <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="codificar">
+            <label for="decodificar">Decodificar</label>
+            <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="decodificar">
+            <br><br>
+
+            <input onclick="acaoBotao()" type="button" value="aqui_vai_mudar" id="botao">
+            <br><br>
+
+            <label for="saida">Este é o resultado da sua mensagem:</label>
+            <br>
+
+            <textarea name="caixaSaida" id="caixaSaida" cols="35" rows="7"></textarea>
         </div>
-        <br><br>
-
-        <label for="codificar">Codificar</label>
-        <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="codificar">
-        <label for="decodificar">Decodificar</label>
-        <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="decodificar">
-        <br><br>
-        <input type="button" value="aqui_vai_mudar" id="botao">
-        <br><br>
-        <label for="saida">Este é o resultado da sua mensagem.</label>
-        <br>
-        <!-- <input type="text" name="caixaSaida" id="saida"> -->
-        <textarea name="caixaSaida" id="caixaSaida" cols="35" rows="7"></textarea>
-        </div>
-
-
     </main>
 
-
-
     <footer>
-
     </footer>
+
     <script src="/js/script.js"></script>
     <link rel="stylesheet" href="/css/style.css">
-
 </body>
 
 </html>
