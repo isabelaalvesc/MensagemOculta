@@ -6,7 +6,6 @@ body {
   overflow: hidden;
   display: flex;
   font-family: 'VT323', monospace;
-  /* font-family: 'Roboto Mono', monospace; */
   font-size: 1rem;
   justify-content: center;
   align-items: center;
@@ -33,7 +32,6 @@ body a :hover{
 
 
 /* Configuração para background*/
-
 canvas {
   position: absolute;
 	top: 0;
@@ -88,5 +86,3 @@ canvas {
   align-items: center;
   margin-top: 20px;
 }
- 
-/* FIM estilo da div principal */
