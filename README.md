@@ -5,7 +5,7 @@ A proprosta do trabalho consistia em criar uma página utilizando HTML, CSS e JS
 Para a Cifra de César, um campo deveria ser disponibilizado para que os usuários podessem escolher qual seria o incremento utilizado na codificação ou decodificação. Na Base 64 o campo de incremento não seria utilizado.
 
 ## 🤖 Funcionalidades da página
-<strong>Dois Text area</strong> - O primeiro usado para a entrada da mensagem, o segundo saída da mensagem tratada.<br>
+<strong>Dois Text area</strong> - O primeiro usado para a entrada da mensagem, o segundo para a saída da mensagem tratada.<br>
 <strong>Dois Input selec</strong> - O primeiro com as opções de Base64 ou Cifra de César para codificação ou decodificação e o segundo para a inclusão do incremento no caso de o usuário escolher o método Cifra de César.<br>
 <strong>Um Input button</strong> - Para dar início ao tratamento da mensagem.<br>
 <strong>Dois Input radio</strong> - Utilizados para dar as opções de "codificar" ou "decodificar" para o usuário.<br>
