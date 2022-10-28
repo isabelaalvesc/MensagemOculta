@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'VT323', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
   font-size: 1rem;
   justify-content: center;
   align-items: center;
@@ -10,6 +14,22 @@ body {
   color: #fff;
 }
 
+body h1{
+  color: yellowgreen;
+}
+
+body h3{
+  color: yellowgreen ;
+}
+
+body a {
+  text-decoration: none;
+  color: yellow;
+}
+
+body a :hover{
+  color: rgb(255, 16, 164);
+}
 
 
 /* Configuração para background*/
@@ -41,11 +61,13 @@ canvas {
 
 .manual{
   background-color: #1e1e1e;
-  position: relative;
+  position:relative ;
   text-align: center;
   border: 20px solid #1e1e1e;
   margin: 20px;
-  border-radius: 2%;,
+  border-radius: 2%;
+  margin-top: 0;
+}
 /* FIM Estilo da div manual */
 
 
