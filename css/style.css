@@ -7,8 +7,10 @@ body {
   justify-content: center;
   align-items: center;
   /* perspective: 600px; */
-  color: black;
+  color: #fff;
 }
+
+
 
 /* Configuração para background*/
 
@@ -20,15 +22,32 @@ canvas {
 
 /* FIM configuração para background */
 
+
 /* Estilo da div principal */
 
 .principal {
-  background-color: aliceblue;
+  background-color: #1e1e1e;
   position: relative;
   text-align: center;
-  border: 20px solid aliceblue;
+  border: 20px solid #1e1e1e;
   margin: 20px;
+  border-radius: 2%;
+  
 }
+/* FIM Estilo da div principal */
+
+
+/* Estilo da div manual */
+
+.manual{
+  background-color: #1e1e1e;
+  position: relative;
+  text-align: center;
+  border: 20px solid #1e1e1e;
+  margin: 20px;
+  border-radius: 2%;,
+/* FIM Estilo da div manual */
+
 
 #entrada{
   width: 270px;

@@ -16,11 +16,12 @@
     </header>
 
     <main>
+
         <div class="principal">
             <label for="entrada">Insira aqui sua mensagem:</label>
             <br>
 
-            <textarea name="caixaEntrada" id="caixaEntrada" cols="35" rows="7"></textarea>
+            <textarea name="caixaEntrada" id="caixaEntrada" cols="35" rows="7" style="resize: none"></textarea>
             <br><br>
 
             <label for="metodo:">Selecione um método:</label>
@@ -34,7 +35,8 @@
 
             <div class="incremento" style="display: none" id="valorIncremento">
                 <label for="incremento">Incremento:</label>
-                <input type="number" class="inputIncremento" id="numIncrementos" default="0" min="0" max="25"/>
+                <input type="number" class="inputIncremento" id="numIncrementos" default="0" min="0" max="25"
+                    value="0" />
             </div>
             <br><br>
 
@@ -44,14 +46,21 @@
             <input onclick="trocaBotao()" type="radio" name="acaoCodigo" id="decodificar">
             <br><br>
 
-            <input onclick="acaoBotao()" type="button" value="aqui_vai_mudar" id="botao">
+            <input onclick="acaoBotao()" type="button" value="Escolha uma função" id="botao">
             <br><br>
 
             <label for="saida">Este é o resultado da sua mensagem:</label>
             <br>
 
-            <textarea name="caixaSaida" id="caixaSaida" cols="35" rows="7"></textarea>
+            <textarea name="caixaSaida" id="caixaSaida" cols="35" rows="7" style="resize: none"></textarea>
+            <br><br>
+
+            <a href="/manual.html"><span>Manual de Instruções</span></a>
         </div>
+
+        <a href="/manual.html"><span>Manual de Instruções</span></a>
+
+
     </main>
 
     <footer>

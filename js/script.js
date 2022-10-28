@@ -215,6 +215,8 @@ function cifraCesar() {
         respFinal[i] = ' ';
       }
     }
+  } else {
+    alert("Escolha uma função para o botão.");
   }
 
 }
