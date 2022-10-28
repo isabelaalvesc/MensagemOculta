@@ -18,7 +18,7 @@ Para a Cifra de César, um campo deveria ser disponibilizado para que os usuári
 * Sem planos futuros para este projeto.
 
 ## :handshake: Colaboradores
-🧑‍💻 Trabalho autoral de <a href="https://github.com/isabelaalvesc">Isabela Alves</a>
+👩🏻‍💻 Trabalho autoral de <a href="https://github.com/isabelaalvesc">Isabela Alves</a>
 
 ## :dart: Status do projeto
 Projeto finalizado.
