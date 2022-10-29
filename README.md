@@ -6,7 +6,8 @@ Para a Cifra de César, um campo deveria ser disponibilizado para que os usuári
 
 ## 🤖 Funcionalidades da página
 <strong>Dois Text area</strong> - O primeiro usado para a entrada da mensagem, o segundo para a saída da mensagem tratada.<br>
-<strong>Dois Input selec</strong> - O primeiro com as opções de Base64 ou Cifra de César para codificação ou decodificação e o segundo para a inclusão do incremento no caso de o usuário escolher o método Cifra de César.<br>
+<strong>Um Input selec</strong> - Com as opções de Base64 ou Cifra de César para codificação ou decodificação. <br>
+<strong>Um Input number</strong> - Para a inclusão do incremento no caso de o usuário escolher o método Cifra de César.<br>
 <strong>Um Input button</strong> - Para dar início ao tratamento da mensagem.<br>
 <strong>Dois Input radio</strong> - Utilizados para dar as opções de "codificar" ou "decodificar" para o usuário.<br>
 <strong>Um a href</strong> - Para chamar uma segunda tela chamada "Manual de Instruções", ensinando o usuário a utilizar a página.<br>
